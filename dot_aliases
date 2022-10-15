@@ -1,0 +1,10 @@
+# Reload .zshrc
+alias reload="exec zsh"
+
+# Open .zshrc
+alias zshconfig="chezmoi edit  ~/.zshrc"
+# Open .aliases
+alias aliases="chezmoi edit ~/.aliases"
+
+# Workspace
+alias ws="cd ~/Code"
